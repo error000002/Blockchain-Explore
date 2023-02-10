@@ -1,0 +1,95 @@
+.flex{
+  display: flex;
+
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.flex-justify-center{
+  justify-content: center;
+}
+
+.flex-justify-saround{
+  justify-content: space-around;
+}
+
+.flex-align-center{
+  align-items: center;
+}
+
+.main{
+  /* background-color: rgb(128, 87, 34); */
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.main > div{
+  max-width: 45%;
+  min-width: 45%;
+  margin: 20px;
+}
+
+.options{
+  width: clamp(300px, 6vw, 450px);
+  background-color: rgb(22, 0, 189);
+  color: #fff;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  margin: 10px 2px ;
+  cursor: pointer;
+}
+
+.form_div{
+
+  margin: 25px 0;
+}
+
+.text_field{
+
+  width: clamp(290px, 8vw, 450px);
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: 1px solid rgb(22, 0, 189);
+  margin: 10px;
+}
+
+.btn{
+
+  width: clamp(320px, 8vw, 450px);
+  padding: 10px 10px;
+  border-radius: 15px;
+  border: 1px solid rgb(22, 0, 189);
+  margin: 10px;
+  background-color: rgb(22, 0, 189, 0.6);
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(22, 0, 189, 0.9);
+}
+
+.Container_2{
+
+  background-color: rgb(255, 235, 205);
+  border: 2px solid rgb(255, 214, 153);
+  padding: 20px;
+  overflow-wrap: break-word;
+
+}
+
+@media only screen and (max-width: 1002px) {
+
+  .main > div{
+    max-width: 80%;
+    min-width: 80%;
+    margin: 20px;
+  }
+}
